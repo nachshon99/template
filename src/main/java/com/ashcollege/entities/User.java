@@ -10,6 +10,7 @@ public class User {
     private List<String> notes;
     private String secret;
 
+
     public User(int id, String username, String password) {
         this(username, password);
         this.id = id;
